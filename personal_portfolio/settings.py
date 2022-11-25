@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-7815%d7z1%du^axk!i1b64+n(=g--q*pbnmwx@vj(k40ve!7w1"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['seanosullivan.pythonanywhere.com']
 
 
 # Application definition
@@ -113,6 +113,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = "static/"
+STATIC_ROOT=BASE_DIR / "static"
+
 MEDIA_URL= "media/"
 
 # Default primary key field type
