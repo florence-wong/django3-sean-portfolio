@@ -4,6 +4,7 @@ from django.db import models
 class Blog(models.Model):
         title=models.CharField(max_length=200)
         description=models.TextField()
+        #pdfFile=models.FileField(upload_to="portfolio/files/")
         date=models.DateField()
 
         def __str__(self):
