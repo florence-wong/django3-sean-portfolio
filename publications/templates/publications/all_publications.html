@@ -1,0 +1,23 @@
+{% extends 'portfolio/base.html' %}
+{% block content %}
+
+
+<h1 class="mt-5">Publications</h1>
+<hr>
+
+    {% for publication in publications %}
+    <br>
+    <br>
+
+    <a href="{{ publication.url }}"><h4 style="color:black;">{{ publication.title }}<h4></a>
+    <h6>{{ publication.description|striptags |truncatechars:300  }}</h6>
+
+    {% endfor %}
+    <div class="row">
+    </div>
+
+
+
+
+
+{% endblock%}
