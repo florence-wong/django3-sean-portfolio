@@ -3,8 +3,10 @@ from django.db import models
 
 # Create your models here.
 class Publication(models.Model):
-    title=models.CharField(max_length=400)
-    description=models.CharField(max_length=450)
+    title=models.CharField(max_length=450)
+    author=models.CharField(max_length=450)
+    journal=models.CharField(max_length=300)
+    #description=models.CharField(max_length=450)
     image=models.ImageField(upload_to="portfolio/images/")
     url=models.URLField(blank=True)
 
