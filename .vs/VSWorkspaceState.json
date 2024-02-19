@@ -3,14 +3,14 @@
     "",
     "\\blog",
     "\\blog\\templates",
-    "\\blog\\templates\\blog",
-    "\\media",
     "\\media\\portfolio",
-    "\\media\\portfolio\\files",
+    "\\media\\portfolio\\images",
+    "\\personal_portfolio",
     "\\portfolio",
-    "\\portfolio\\templates",
-    "\\portfolio\\templates\\portfolio"
+    "\\publications",
+    "\\publications\\templates",
+    "\\publications\\templates\\publications"
   ],
-  "SelectedNode": "\\portfolio\\models.py",
+  "SelectedNode": "\\publications\\templates\\publications\\all_publications.html",
   "PreviewInSolutionExplorer": false
 }
